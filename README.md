@@ -1,4 +1,7 @@
 ## highlightjs-wrapper
 
 <hr/>
-Note This page is generated based on the markdown-syntax. For details see <http://daringfireball.net/projects/markdown/syntax/>
+Wrapper of highlightjs-wrapper library for usage in cubbles.
+
+      highlightjs: Syntax highlighting for the Web.
+      See [highlightjs](https://highlightjs.org/)
