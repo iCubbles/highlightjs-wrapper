@@ -1,0 +1,1059 @@
+{
+    "name": "highlightjs-9.3.0",
+    "groupId": "",
+    "version": "1.1.0",
+    "modelVersion": "9.1.0",
+    "docType": "webpackage",
+    "author": {
+        "name": "Judit Ross",
+        "email": "judit.ross@incowia.com"
+    },
+    "license": "MIT",
+    "keywords": [
+        "library",
+        "highlightjs",
+        "3rd-party"
+    ],
+    "man": [ ],
+    "artifacts": {
+        "apps": [ ],
+        "elementaryComponents": [ ],
+        "compoundComponents": [ ],
+        "utilities": [
+            {
+                "artifactId": "highlightjs-agate",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "agate-html-import.html",
+                        "prod": "agate-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-androidstudio",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "androidstudio-html-import.html",
+                        "prod": "androidstudio-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-arduino-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "arduino-light-html-import.html",
+                        "prod": "arduino-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-arta",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "arta-html-import.html",
+                        "prod": "arta-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-ascetic",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "ascetic-html-import.html",
+                        "prod": "ascetic-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-cave-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-cave-dark-html-import.html",
+                        "prod": "atelier-cave-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-cave-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-cave-light-html-import.html",
+                        "prod": "atelier-cave-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-cavedark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-cavedark-html-import.html",
+                        "prod": "atelier-cavedark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-cavelight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-cavelight-html-import.html",
+                        "prod": "atelier-cavelight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-dune-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-dune-dark-html-import.html",
+                        "prod": "atelier-dune-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-dune-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-dune-light-html-import.html",
+                        "prod": "atelier-dune-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-dunedark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-dunedark-html-import.html",
+                        "prod": "atelier-dunedark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-dunelight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-dunelight-html-import.html",
+                        "prod": "atelier-dunelight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-estuary-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-estuary-dark-html-import.html",
+                        "prod": "atelier-estuary-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-estuary-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-estuary-light-html-import.html",
+                        "prod": "atelier-estuary-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-estuarydark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-estuarydark-html-import.html",
+                        "prod": "atelier-estuarydark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-estuarylight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-estuarylight-html-import.html",
+                        "prod": "atelier-estuarylight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-forest-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-forest-dark-html-import.html",
+                        "prod": "atelier-forest-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-forest-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-forest-light-html-import.html",
+                        "prod": "atelier-forest-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-forestdark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-forestdark-html-import.html",
+                        "prod": "atelier-forestdark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-forestlight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-forestlight-html-import.html",
+                        "prod": "atelier-forestlight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-heath-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-heath-dark-html-import.html",
+                        "prod": "atelier-heath-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-heath-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-heath-light-html-import.html",
+                        "prod": "atelier-heath-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-heathdark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-heathdark-html-import.html",
+                        "prod": "atelier-heathdark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-heathlight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-heathlight-html-import.html",
+                        "prod": "atelier-heathlight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-lakeside-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-lakeside-dark-html-import.html",
+                        "prod": "atelier-lakeside-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-lakeside-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-lakeside-light-html-import.html",
+                        "prod": "atelier-lakeside-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-lakesidedark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-lakesidedark-html-import.html",
+                        "prod": "atelier-lakesidedark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-lakesidelight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-lakesidelight-html-import.html",
+                        "prod": "atelier-lakesidelight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-plateau-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-plateau-dark-html-import.html",
+                        "prod": "atelier-plateau-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-plateau-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-plateau-light-html-import.html",
+                        "prod": "atelier-plateau-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-plateaudark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-plateaudark-html-import.html",
+                        "prod": "atelier-plateaudark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-plateaulight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-plateaulight-html-import.html",
+                        "prod": "atelier-plateaulight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-savanna-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-savanna-dark-html-import.html",
+                        "prod": "atelier-savanna-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-savanna-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-savanna-light-html-import.html",
+                        "prod": "atelier-savanna-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-savannadark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-savannadark-html-import.html",
+                        "prod": "atelier-savannadark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-savannalight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-savannalight-html-import.html",
+                        "prod": "atelier-savannalight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-seaside-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-seaside-dark-html-import.html",
+                        "prod": "atelier-seaside-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-seaside-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-seaside-light-html-import.html",
+                        "prod": "atelier-seaside-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-seasidedark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-seasidedark-html-import.html",
+                        "prod": "atelier-seasidedark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-seasidelight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-seasidelight-html-import.html",
+                        "prod": "atelier-seasidelight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-sulphurpool-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-sulphurpool-dark-html-import.html",
+                        "prod": "atelier-sulphurpool-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-sulphurpool-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-sulphurpool-light-html-import.html",
+                        "prod": "atelier-sulphurpool-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-sulphurpooldark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-sulphurpooldark-html-import.html",
+                        "prod": "atelier-sulphurpooldark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-atelier-sulphurpoollight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "atelier-sulphurpoollight-html-import.html",
+                        "prod": "atelier-sulphurpoollight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-brown-paper",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "brown-paper-html-import.html",
+                        "prod": "brown-paper-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-codepen-embed",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "codepen-embed-html-import.html",
+                        "prod": "codepen-embed-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-color-brewer",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "color-brewer-html-import.html",
+                        "prod": "color-brewer-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "dark-html-import.html",
+                        "prod": "dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-darkula",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "darkula-html-import.html",
+                        "prod": "darkula-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-default",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "default-html-import.html",
+                        "prod": "default-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-docco",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "docco-html-import.html",
+                        "prod": "docco-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-dracula",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "dracula-html-import.html",
+                        "prod": "dracula-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-far",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "far-html-import.html",
+                        "prod": "far-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-foundation",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "foundation-html-import.html",
+                        "prod": "foundation-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-github-gist",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "github-gist-html-import.html",
+                        "prod": "github-gist-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-github",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "github-html-import.html",
+                        "prod": "github-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-googlecode",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "googlecode-html-import.html",
+                        "prod": "googlecode-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-grayscale",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "grayscale-html-import.html",
+                        "prod": "grayscale-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-gruvbox-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "gruvbox-dark-html-import.html",
+                        "prod": "gruvbox-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-gruvbox-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "gruvbox-light-html-import.html",
+                        "prod": "gruvbox-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-hopscotch",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "hopscotch-html-import.html",
+                        "prod": "hopscotch-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-hybrid",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "hybrid-html-import.html",
+                        "prod": "hybrid-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-idea",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "idea-html-import.html",
+                        "prod": "idea-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-ir-black",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "ir-black-html-import.html",
+                        "prod": "ir-black-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-kimbiedark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "kimbiedark-html-import.html",
+                        "prod": "kimbiedark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-kimbielight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "kimbielight-html-import.html",
+                        "prod": "kimbielight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-magula",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "magula-html-import.html",
+                        "prod": "magula-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-mono-blue",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "mono-blue-html-import.html",
+                        "prod": "mono-blue-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-monokai-sublime",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "monokai-sublime-html-import.html",
+                        "prod": "monokai-sublime-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-monokai",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "monokai-html-import.html",
+                        "prod": "monokai-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-obsidian",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "obsidian-html-import.html",
+                        "prod": "obsidian-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-paraiso-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "paraiso-dark-html-import.html",
+                        "prod": "paraiso-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-paraiso-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "paraiso-light-html-import.html",
+                        "prod": "paraiso-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-paraisodark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "paraisodark-html-import.html",
+                        "prod": "paraisodark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-paraisolight",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "paraisolight-html-import.html",
+                        "prod": "paraisolight-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-pojoaque",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "pojoaque-html-import.html",
+                        "prod": "pojoaque-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-qtcreator-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "qtcreator-dark-html-import.html",
+                        "prod": "qtcreator-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-qtcreator-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "qtcreator-light-html-import.html",
+                        "prod": "qtcreator-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-railscasts",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "railscasts-html-import.html",
+                        "prod": "railscasts-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-rainbow",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "rainbow-html-import.html",
+                        "prod": "rainbow-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-school-book",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "school-book-html-import.html",
+                        "prod": "school-book-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-solarized-dark",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "solarized-dark-html-import.html",
+                        "prod": "solarized-dark-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-solarized-light",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "solarized-light-html-import.html",
+                        "prod": "solarized-light-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-sunburst",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "sunburst-html-import.html",
+                        "prod": "sunburst-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-tomorrow-night-blue",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "tomorrow-night-blue-html-import.html",
+                        "prod": "tomorrow-night-blue-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-tomorrow-night-bright",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "tomorrow-night-bright-html-import.html",
+                        "prod": "tomorrow-night-bright-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-tomorrow-night-eighties",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "tomorrow-night-eighties-html-import.html",
+                        "prod": "tomorrow-night-eighties-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-tomorrow-night",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "tomorrow-night-html-import.html",
+                        "prod": "tomorrow-night-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-tomorrow",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "tomorrow-html-import.html",
+                        "prod": "tomorrow-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-vs",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "vs-html-import.html",
+                        "prod": "vs-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-xcode",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "xcode-html-import.html",
+                        "prod": "xcode-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-xt256",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "xt256-html-import.html",
+                        "prod": "xt256-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            },
+            {
+                "artifactId": "highlightjs-zenburn",
+                "description": "",
+                "resources": [
+                    {
+                        "dev": "zenburn-html-import.html",
+                        "prod": "zenburn-html-import.min.html"
+                    }
+                ],
+                "dependencies": [ ]
+            }
+        ]
+    }
+}
