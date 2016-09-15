@@ -3,5 +3,9 @@
 <hr/>
 Wrapper of highlightjs-wrapper library for usage in cubbles.
 
-      highlightjs: Syntax highlighting for the Web.
-      See [highlightjs](https://highlightjs.org/)
+***
+Origin Library:
+
+>highlightjs: Syntax highlighting for the Web.
+
+See [highlightjs](https://highlightjs.org/)
